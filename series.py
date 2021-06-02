@@ -80,3 +80,24 @@ pokemon.dtype
 pokemon.index
 pokemon.values
 pokemon.is_unique
+pokemon.sort_values()
+pokemon.sort_values().head()
+pokemon.sort_values().tail()
+pokemon.sort_values(ascending=True)
+pokemon.sort_values(ascending=False)
+pokemon.sort_values(ascending=True, inplace=True)
+pokemon.sort_values(ascending=True, inplace=False)
+pokemon.sort_index(ascending=False)
+pokemon.sort_index(ascending=True)
+pokemon.sort_index(ascending=True, inplace=True)
+pokemon.sort_index(ascending=True, inplace=False)
+
+# In Keyword
+pokemon = pd.read_csv('pokemon.csv')
+pokemon = pd.read_csv('pokemon.csv', usecols=['Pokemon'])
+pokemon = pd.read_csv('pokemon.csv', usecols=['Pokemon'], squeeze=True)
+
+100 in [1,2,3,5]
+100 in pokemon.index
+'Charmeleon' in pokemon.values
+'Mazedur' in pokemon.values
