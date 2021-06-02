@@ -15,7 +15,7 @@ pd.Series(registration)
 pd.Series(ice_cream)
 pd.Series(webster)
 
-# Attribut & Methods
+# Attribute & Methods
 
 quality = ["Genius","Handsome","Cheater","Brilliant","Humble", "Smart"]
 s = pd.Series(quality)
@@ -53,3 +53,30 @@ pd.read_csv('pokemon.csv', squeeze=True)
 pokemon = pd.read_csv('pokemon.csv', usecols=['Pokemon'], squeeze=True)
 pokemon.head()
 pokemon.tail()
+
+
+# Built-in Functions in Python
+pd.read_csv('pokemon.csv')
+pokemon
+len(pokemon)
+type(pokemon)
+max(pokemon)
+min(pokemon)
+sorted(pokemon)
+list(pokemon)
+dict(pokemon)
+
+# More Series Attributes
+pokemon = pd.read_csv('pokemon.csv')
+pokemon = pd.read_csv('pokemon.csv', usecols=['Pokemon'])
+pokemon = pd.read_csv('pokemon.csv', usecols=['Pokemon'], squeeze=True)
+pokemon.head()
+pokemon.tail()
+pokemon.name
+pokemon.size
+pokemon.shape
+pokemon.ndim
+pokemon.dtype
+pokemon.index
+pokemon.values
+pokemon.is_unique
