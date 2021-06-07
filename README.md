@@ -19,3 +19,10 @@ Data Analysis with Pandas and Python by Baris Paskhaver
  - apply() with Row Values
  - copy() method
 
+## GroupBy
+ - First operations
+ - get_group
+ - Methods 
+ - Grouping Multiple Columns
+ - agg() Method
+ - Iterating Method
